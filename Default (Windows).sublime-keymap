@@ -1,0 +1,16 @@
+[
+	{
+		"keys": ["ctrl+p"],
+		"command": "goto_opened_file",
+		"context": [
+			{"key": "goto_opened_opened", "operator": "equal", "operand": false}
+		]
+	},
+	{
+		"keys": ["ctrl+p"],
+		"command": "goto_any_file",
+		"context": [
+			{"key": "goto_opened_opened"}
+		]
+	}
+]

@@ -1,0 +1,6 @@
+[
+	{
+		"caption": "Goto opened file",
+		"command": "goto_opened_file"
+	}
+]
